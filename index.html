@@ -8,26 +8,47 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="general-layout">
-        <div class="header">
-            <div id="gmail">Gmail</div> 
-            <div id="menu"><img src="images/menu-logo.png" alt="menu"></div>
+    <div class="header">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <a href="#">
+            <svg width="24" height="24" style="opacity: 0.7;">
+                <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
+            </svg>
+        </a>
+        <a href="#">My account</a>
+    </div>
+    <div class="main">
+        <img src="images/google_logo_272x92.png" alt="google logo">
+        <form action="#">
+            <div class="searchbar">
+                <svg width="24" height="24" id="search-icon">
+                    <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                </svg>
+                <input type="text" id="text-field">
+            </div>
+            <div class="search-buttons">
+                <input type="submit" value="Search Google">
+                <input type="submit" value="I'm feeling lucky">
+            </div>
+        </form>
+    </div>
+    <div class="footer">
+        <div class="country">
+            <a href="#">Ukraine</a>
         </div>
-        <div class="main-logo">
-            <img src="images/google_logo_272x92.png" alt="google logo">
-        </div>
-        <div class="form">
-            <form action="#" id="search-form">
-                <div class="search-input">
-                    <input type="text" id="text-input">
-                </div>
-                <div id="search-button">
-                    <input type="submit" value="Google Search" id="search-button">
-                </div>
-            </form>
-        </div>
-        <div class="footer">
-            <div id="about">About</div>
+        <div class="footer-links">
+            <div class="information">
+                <a href="#">About Google</a>
+                <a href="#">Advertisement</a>
+                <a href="#">For business</a>
+                <a href="#">How does search work?</a>
+            </div>
+            <div class="legal">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+            </div>
         </div>
     </div>
 </body>
